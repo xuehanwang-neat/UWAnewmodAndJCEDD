@@ -8,4 +8,5 @@ To reproduce the simulation figures in this paper:
 7.   Run perfectCSI/main_ber_fullLMMSE_robust.m to simulate Fig. 5 (BER vs SNR under different parameters)
 8.   Run JCEDD_iter/main_JCEDD_iter.m to simulate Fig. 6 (BER vs iteration times)
 9.   Run JCEDD_rho/main_JCEDD_rho.m to simulate Fig. 7 (BER vs \rho)
-10. Run JCEDD_SNR/main_JCEDD_SNR.m to simulate Fig. 8 (BER vs SNR with the joint receiver)
+
+10.  Run JCEDD_SNR/main_JCEDD_SNR.m to simulate Fig. 8 (BER vs SNR with the joint receiver)
