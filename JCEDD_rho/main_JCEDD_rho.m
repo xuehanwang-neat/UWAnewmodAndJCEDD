@@ -66,7 +66,7 @@ for n_mc = 1:N_mc
     x = qammod(data_bit,qam_mod,'InputType','bit','UnitAveragePower',true) ;
     x = x.' ;
     n_norm = sqrt(1/2) * (randn(N+Ng,1)...
-        + 1j*randn(size(N+Ng,1))) ;
+        + 1j*randn(N+Ng,1)) ;
     parfor b = 1:length_rho
         rho = rho_cand(b) ;
         % sequence-level modulation
