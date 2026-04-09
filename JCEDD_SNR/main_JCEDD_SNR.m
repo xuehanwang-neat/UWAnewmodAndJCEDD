@@ -91,7 +91,7 @@ for n_mc = 1:N_mc
     r_rx_SC_wn = H * s_tx_SC ;
     r_rx_ODDM_wn = H * s_tx_ODDM ;
     n_norm = sqrt(1/2) * (randn(N+Ng,1)...
-        + 1j*randn(size(N+Ng,1)));
+        + 1j*randn(N+Ng,1));
     parfor b = 1:length(sigma2_cand)
         sigma2 = sigma2_cand(b) ;
         % additive noise
