@@ -66,7 +66,7 @@ for n_mc = 1:N_mc
     s_tx_propose = sqrt(1-rho) * F_propose * x + sqrt(rho) * sp ; 
     % transmission
     n_norm = sqrt(1/2) * (randn(N+Ng,1)...
-        + 1j*randn(size(N+Ng,1))) ;
+        + 1j*randn(N+Ng,1)) ;
     r_rx_propose_wn = H * s_tx_propose ;
     % Eb/N0 = 30dB
     sigma2 = sigma2_cand(1) ;
